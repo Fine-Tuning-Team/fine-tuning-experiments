@@ -7,6 +7,7 @@ This is an experimentation run for Choreo Docs domain knowledge adaptation using
 - **Fine-tuning method :** Low Rank Adaptation (LoRA)
 - **Library Used :** Unsloth
 - **Dataset used :** rtweera/simple_implicit_n_qa_results_v2
+- **Dataset Size :** 194
 - **HF Model Card :** lukepramo221/lukepramo221/gemma-3-4b-finetuned_choreo-qna_full_v0.1
 
 ## Instructions

@@ -7,6 +7,7 @@ This is an experimentation run for Choreo Docs domain knowledge adaptation using
 - **Fine-tuning method :** Low Rank Adaptation (LoRA)
 - **Library Used :** Unsloth
 - **Dataset used :** lukepramo221/choreo_concepts_docs_qna_trainset_conversation_formatted_pqt_v1.0
+- **Dataset Size :** 970
 - **HF Model Card :** lukepramo221/choreo-qna-finetuned-gemma-3-qna-v0.6
 
 ## Instructions
@@ -20,6 +21,6 @@ This is an experimentation run for Choreo Docs domain knowledge adaptation using
 
 - **Model Versioning:**  
     Ensure you properly version fine-tuned models before pushing them to Hugging Face.
-    
+
 - **RAGAS Evaluator:**
     You can run RAGAS evaluator code on any VM without GPU. Make sure to put the environment variables as needed.
