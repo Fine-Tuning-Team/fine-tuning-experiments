@@ -24,3 +24,9 @@ This is an experimentation run for Choreo Docs domain knowledge adaptation using
 
 - **RAGAS Evaluator:**
     You can run RAGAS evaluator code on any VM without GPU. Make sure to put the environment variables as needed.
+
+## Evaluation results
+
+All evaluation results for Gemma3 based fine tuning rns are available in the following Google Sheet.
+
+Link : [Google Sheets](https://docs.google.com/spreadsheets/d/1KZn_YtTTuxMAKvPhgGUCArjlBMRYK7k-hgWdNCtvhhM/edit?usp=sharing)
