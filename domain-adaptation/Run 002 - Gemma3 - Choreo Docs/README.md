@@ -1,4 +1,4 @@
-# Run 001 - Gemma3 - Choreo Docs
+# Run 002 - Gemma3 - Choreo Docs
 
 This is an experimentation run for Choreo Docs domain knowledge adaptation using the `gemma3-4b-it` model on Google Colab.
 
@@ -6,14 +6,14 @@ This is an experimentation run for Choreo Docs domain knowledge adaptation using
 - **Model :** unsloth/gemma-3-4b-it | google/gemma-3-4b-it
 - **Fine-tuning method :** Low Rank Adaptation (LoRA)
 - **Library Used :** Unsloth
-- **Dataset used :** rtweera/simple_implicit_n_qa_results_v2
-- **Dataset Size :** 194
-- **HF Model Card :** lukepramo221/lukepramo221/gemma-3-4b-finetuned_choreo-qna_full_v0.1
+- **Dataset used :** lukepramo221/choreo_concepts_docs_qna_trainset_conversation_formatted_pqt_v1.0
+- **Dataset Size :** 970
+- **HF Model Card :** lukepramo221/choreo-qna-finetuned-gemma-3-qna-v0.6
 
 ## Instructions
 
-- **Use only with Google Colab.**  
-    Not supported with Kaggle.
+- **Fine-tuner and inferencer is optimized for Google Colab only.**  
+    No support for Kaggle.
 
 - **Update environment variables in the Colab environment:**
     - Set your Hugging Face token.
