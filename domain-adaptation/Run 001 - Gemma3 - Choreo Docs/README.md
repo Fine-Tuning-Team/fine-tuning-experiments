@@ -20,3 +20,6 @@ This is an experimentation run for Choreo Docs domain knowledge adaptation using
 
 - **Model Versioning:**  
     Ensure you properly version fine-tuned models before pushing them to Hugging Face.
+
+- **RAGAS Evaluator:**
+    You can run RAGAS evaluator code on any VM without GPU. Make sure to put the environment variables as needed.
