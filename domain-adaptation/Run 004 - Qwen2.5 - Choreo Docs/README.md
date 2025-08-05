@@ -14,7 +14,7 @@ This is an experimentation run for Choreo Docs domain knowledge adaptation using
 
 - **Works in Kaggle**
 
-- **Use the `Run 003` notebook** to run the fine-tuning process.
+- **Use the `Run 003` notebook** to run the fine-tuning process. Only change is the dataset.
 
 - **Update secrets in the Kaggle environment:**
     - Set your Hugging Face token.
