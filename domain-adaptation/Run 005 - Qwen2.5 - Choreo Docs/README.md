@@ -22,6 +22,11 @@ This is an experimentation run for Choreo Docs domain knowledge adaptation using
   - [Choreo copilot results for test3](https://huggingface.co/datasets/rtweera/copilot-answers-user_centric_results_v1)
   - [Choreo copilot results for test4](https://huggingface.co/datasets/rtweera/copilot-answers-user_centric_results_v2)
 - **HF Model Card :** https://huggingface.co/rtweera/2025-Jun-04_14-52-53_Qwen2.5-7B-Instruct-unsloth-bnb-4bit_LoRA
+- **Evaluation results**: All results are in the xlsx files. Refer to the following mapping:
+  - `test1` -> `june-13-ds1-previous-testset.xlsx`
+  - `test2` -> `june-13-ds1-previous-trainset.xlsx`
+  - `test3` -> `june-13-ds3-testset-1-direct-domain-questions.xlsx`
+  - `test4` -> `june-13-ds4-testset-2-scenario-based.xlsx`
 
 ## Instructions
 
@@ -35,3 +40,11 @@ This is an experimentation run for Choreo Docs domain knowledge adaptation using
 
 - **Model Versioning:**  
     Ensure you properly version fine-tuned models before pushing them to Hugging Face.
+
+- Evaluation was done using the `Ragas` library.
+
+## Additional Context
+
+Previous train and test datasets were decided to be used as test sets in this run as they are no longer needed. They were observed to have certain gaps in the domain knowledge. The new datasets were created to cover those gaps and to provide a more comprehensive evaluation of the model's performance in the Choreo Docs domain. 
+
+In the new test datasets, testset 1 directly checks the domain knowledge: like 'How to search in Choreo marketplace?'. The testset 2 is a scenario-based one where the user is faced with a certain scenario and asks the model to how to solve it, such as: 'I need the service X in my application, how can I find this in Choreo marketplace?'.
