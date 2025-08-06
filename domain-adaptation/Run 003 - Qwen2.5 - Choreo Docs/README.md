@@ -11,7 +11,7 @@ This is an experimentation run for Choreo Docs domain knowledge adaptation using
 
 ## Instructions
 
-- **Works in Kaggle**
+- **Works in Kaggle with T4 GPU**
 
 - **Update secrets in the Kaggle environment:**
     - Set your Hugging Face token.
